@@ -1,9 +1,16 @@
 <h1 align='center'>Self Supervised Deblurring</h1>
-In this project a self supervised deblurring model was built for deblurring blurred images. Then a previously made semantic segmentation model was applied to segment different objects.
+<p align='justify'>
+In this project a self supervised deblurring model was built for deblurring blurred images. Then a semantic segmentation model was applied to segment different objects.
+</p>
 
-## Data Source
-The data which is used for this project is a popular dataset named CamVid(Cambridge-Driving Labeled Video Database). It was taken from popular data repository Kaggle. It consists of over 700 images and masks for semantic segmentation. 
+## Data
+<p align='justify'>
+A popular dataset named CamVid(Cambridge-Driving Labeled Video Database) was used for this project and was taken from popular data repository Kaggle. It consists of over 700 images and masks for semantic segmentation. 
 The images and masks were seperated in training, validation and testing sets. The ground truth label associate each pixel with one of 32 semantic classes.
+</p>
+
+## Usage
+It can be used to dblur blurry images.
 
 ## Procedure
 - A blur function was built which applies random level of gaussian blurring to each image 
